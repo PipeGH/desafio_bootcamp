@@ -1,0 +1,25 @@
+.section{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  background-color:#2c313b;
+  margin: 2rem auto;
+  padding: 1rem 1.5rem;
+  overflow: hidden;
+  border: .1rem solid #bf1f1e;
+  border-radius: 1rem;
+  box-shadow: .25rem .25rem 0 0 rgba(191, 31, 30, .7);
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
+}
+ .section h2{
+  text-align: justify;
+  color: #d59a09;
+  font-weight: bold;
+  padding: 1rem;
+}
