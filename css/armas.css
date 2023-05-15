@@ -27,7 +27,7 @@
 .armas-content p span::before{
   content: '\2705';
 }
- .armas-picture{
+.armas-picture{
   position: relative;
   grid-column: 1/2;
   grid-row: 2/3;
