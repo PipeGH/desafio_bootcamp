@@ -1,7 +1,7 @@
 .armas-content{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2 1fr);
+  grid-template-rows: repeat(2, 1fr);
   gap: 1rem;
   margin: 1rem;
   padding: 1rem;
@@ -10,10 +10,10 @@
   overflow: hidden;
   box-shadow: .25rem .25rem 0 0 rgba(191, 31, 30, .2);
   border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
+  -webkit-border-radius:;
+  -moz-border-radius:;
+  -ms-border-radius:;
+  -o-border-radius:;
 }
 .armas-content p{
   grid-column: 1/3;
@@ -31,15 +31,14 @@
   position: relative;
   grid-column: 1/2;
   grid-row: 2/3;
-  margin-left: 2rem;
-  
+  margin: auto;
 }
 .armas-picture img{
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit:contain;
   border-radius: 1rem;
-  box-shadow: 0 .25rem .25rem 0 rgba(255, 205, 33, .7);
+  border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
@@ -55,18 +54,19 @@
 .spec-list li{
   padding: .5rem;
 }
-@media screen and (max-width:720px){
+
+@media screen and (max-width:980px){
   .armas-content{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(3 1fr);
+  grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
   margin: 1rem;
   padding: 1rem;
   color: #ffcd21;
   margin-bottom: 1rem;
   } 
-  .armas-content p{
+  .armas-content .arma-description{
     grid-column: 1/2;
     grid-row: 1/2;
     font-size: 1rem;
@@ -75,7 +75,12 @@
   .armas-picture{
     grid-column: 1/2;
     grid-row: 2/3;
-    margin: 1rem .5rem;
+    margin: 2rem;
+  }
+  .armas-picture img{
+    margin: 2rem;
+    width: 80%;
+    height: 80%;
   }
   .armas-content .spec-list{
     grid-column: 1/2;
