@@ -9,6 +9,10 @@
   box-shadow: 0 0.15rem 0.75rem 0 rgba(213, 154, 9, 0.5);
   border-radius: 0.5rem;
   padding: 1rem 2rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 #main-content h2 {
   font-size: 1.2rem;

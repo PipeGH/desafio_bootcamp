@@ -15,11 +15,11 @@
       <img src="../assets/logo.png" alt="logo de PUBG Mobile">
     </picture>
     <nav id="site-navbar">
-      <a href="#">Modos</a>
-      <a href="#">Armas</a>
-      <a href="#">Mapas</a>
-      <a href="#">Equipos</a>
-      <a href="#">Contacto</a>
+      <a href="#modes-section">Modos</a>
+      <a href="#arms-section">Armas</a>
+      <a href="#maps-section">Mapas</a>
+      <a href="#teams-section">Equipos</a>
+      <a href="#contact-section">Contacto</a>
     </nav>
   </header>
 
@@ -37,7 +37,7 @@
     <p>En las siguientes secciones, podrás observar de manera más detallada los aspectos más importantes a tener en
       cuenta si quieres jugar y adentrarte en el mundo de PUBG Mobile.</p>
     <!--Seccion 1: modos de juego-->
-    <section class="section">
+    <section id="modes-section" class="section">
       <h2>Modos de juego disponibles</h2>
       <p>Numerosos juegos para dispositivos móviles suelen volverse monótonos con rapidez, lo que puede
         provocar que el jugador pierda interés. Sin embargo, PUBG Mobile procura brindar a sus usuarios una experiencia
@@ -121,7 +121,7 @@
       </details>
     </section>
     <!--Seccion 2: armas mas utilizadas e imponentes-->
-    <section class="section">
+    <section id="arms-section" class="section">
       <h2>Armas mas imponentes y utilizadas en el meta</h2>
       <!--Arma numero 1-->
       <article class="arms-content">
@@ -232,7 +232,7 @@
       </article>
     </section>
     <!--Seccion 3: Mapas de juego-->
-    <section class="section">
+    <section id="maps-section" class="section">
       <h2>Mapas de juego</h2>
       <p>Los mapas son un elemento crucial en cualquier juego de Battle Royale, y PUBG Mobile
         no es la excepción. Sin
@@ -357,7 +357,7 @@
         </article>
       </details>
     </section>
-    <section class="section">
+    <section id="teams-section" class="section">
       <h2>Equipos mas poderosos del competitivo</h2>
       <!--Equipo numero 1-->
       <article class="equipo-content">
@@ -497,12 +497,36 @@
     </section>
   </main>
 
-  <footer id="main-footer">
-    <h2>Contacto</h2>
-    <p>Si tienes preguntas o comentarios sobre PUBG Mobile o este blog, puedes contáctanos en:</p>
-    <p>Email: ejemplo@gmail.com</p>
-    <p>Teléfono: +3197228732</p>
-  </footer>
+  <section id="contact-section">
+    <h2 id="title">Suscripción</h2>
+    <form action="procesar_suscripcion.php" method="POST" id="subscription-form">
+      <fieldset id="field-form">
+        <legend id="text-form">Suscribete al Blog</legend>
+        <p id="description-form">Recibe las últimas actualizaciones directamente en tu bandeja de entrada.</p>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" required>
+      </fieldset>
+      <input type="submit" value="Suscribirse">
+    </form>
+  </section>
 </body>
+<footer id="footer">
+
+  <section id="informacion">
+    <p>Nuestro objetivo principal es mantenerte informado sobre todas las novedades del juego. Desde actualizaciones de
+      mapas y nuevas armas hasta que equipos son los mas conocidos y fuertes en el competitivo, te mantendremos al tanto
+      de todo lo que sucede en el mundo de PUBG Mobile.</p>
+    <p>&copy; 2023 Blog de PUBG Mobile. Todos los derechos reservados.</p>
+  </section>
+
+  <section id="social-icons">
+    <h2>Sigue nuestras redes sociales</h2>
+    <a href="#"><i class="fab fa-facebook"></i></a>
+    <a href="#"><i class="fab fa-twitter"></i></a>
+    <a href="#"><i class="fab fa-instagram"></i></a>
+  </section>
+</footer>
 
 </html>
