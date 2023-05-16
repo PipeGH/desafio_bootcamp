@@ -1,35 +1,35 @@
-#main-content{
+#main-content {
   background-color: #222527;
   padding: 3rem;
 }
-#main-content  h1{
+#main-content h1 {
   font-size: 1.5rem;
   text-align: center;
   color: #ffcd21;
-  box-shadow: 0 .15rem .75rem 0 rgba(213, 154, 9, .5);
-  border-radius: .50rem;
+  box-shadow: 0 0.15rem 0.75rem 0 rgba(213, 154, 9, 0.5);
+  border-radius: 0.5rem;
   padding: 1rem 2rem;
 }
-#main-content h2{
+#main-content h2 {
   font-size: 1.2rem;
   color: #ffcd21;
   text-align: center;
 }
-#main-content  p{
+#main-content p {
   margin-top: 1rem;
   font-size: 1.2rem;
   text-align: justify;
   color: #fffafa;
 }
-#main-content h3{
+#main-content h3 {
   font-size: 1rem;
   text-align: justify;
   color: #ffcd21;
 }
-#main-content span{
+#main-content span {
   color: #ffcd21;
 }
-#main-content #first-picture{
+#main-content #first-picture {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,7 @@
   margin: auto;
   padding: 1rem 0;
 }
-#main-content #first-picture img{
+#main-content #first-picture img {
   width: 100%;
   height: 100%;
   border-radius: 1rem;
@@ -49,13 +49,21 @@
   -o-border-radius: 1rem;
 }
 
-
-@media screen and (max-width: 768px){
-  #main-content #first-picture{
+@media screen and (max-width: 768px) {
+  #main-content #first-picture {
     width: 100%;
     height: 100%;
   }
-  #main-content  p{
+  #main-content p {
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  #main-content #first-picture {
+    width: 100%;
+    height: 100%;
+  }
+  #main-content p {
+    font-size: 0.8rem;
   }
 }
