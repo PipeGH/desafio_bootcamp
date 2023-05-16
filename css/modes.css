@@ -1,23 +1,23 @@
-.modes-details{
+.modes-details {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   background-color: #242424;
   position: relative;
-  padding: .5rem;
-  margin: .5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
   cursor: pointer;
-  box-shadow: -.25rem -.15rem .15rem 0  rgba(191, 31, 3, .7);
-  border: .1rem solid  #bf1f1e;
-  border-radius: .5rem;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
+  box-shadow: -0.25rem -0.15rem 0.15rem 0 rgba(191, 31, 3, 0.7);
+  border: 0.1rem solid #bf1f1e;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
-.modes-details summary{
+.modes-details summary {
   color: #fffafa;
-  margin: .2rem;
+  margin: 0.2rem;
   text-align: center;
   list-style: none;
   outline: none;
@@ -28,7 +28,7 @@
   -ms-transition: transform 0.2s ease-in-out;
   -o-transition: transform 0.2s ease-in-out;
 }
-.modes-details summary:hover{
+.modes-details summary:hover {
   color: #ffcd21;
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
@@ -36,98 +36,96 @@
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
-.modes-details  summary::before {
-  content: '\1F3AE';
-  margin-right: .5rem;
+.modes-details summary::before {
+  content: "\1F3AE";
+  margin-right: 0.5rem;
 }
-.modes-details[open] summary{
+.modes-details[open] summary {
   opacity: 1;
   width: 40vw;
   height: 5vh;
   margin: auto;
-  text-shadow: .1rem .1rem .3rem #ffcd21;
-  box-shadow: .15rem .15rem .15rem 0 rgb(191, 31, 30);
-  border-radius: .5rem;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
+  text-shadow: 0.1rem 0.1rem 0.3rem #ffcd21;
+  box-shadow: 0.15rem 0.15rem 0.15rem 0 rgb(191, 31, 30);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
-.modes-details .description{
+.modes-details .description {
   margin: 1rem;
   padding: 1rem;
-  border-top: .2rem solid #bf1f1e;
+  border-top: 0.2rem solid #bf1f1e;
 }
-.modes-picture{
+.modes-picture {
   padding: 1rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
   gap: 1rem;
-  margin: 1rem; 
-  justify-content:center;
+  margin: 1rem;
+  justify-content: center;
   align-items: center;
 }
-.modes-picture img{
+.modes-picture img {
   width: 100%;
   height: 100%;
-  box-shadow: 0 .25rem .25rem 0 rgb(255, 205, 33);
-  border-radius: .5rem;
-  -webkit-border-radius: .5rem;
-  -moz-border-radius: .5rem;
-  -ms-border-radius: .5rem;
-  -o-border-radius: .5rem;
+  box-shadow: 0 0.25rem 0.25rem 0 rgb(255, 205, 33);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
-.modes-picture img:first-child{
+.modes-picture img:first-child {
   grid-column: 1/2;
   grid-row: 1/2;
 }
-.modes-picture img:first-child{
+.modes-picture img:first-child {
   grid-column: 2/3;
   grid-row: 1/2;
 }
-.modes-details  ul{
+.modes-details ul {
   margin-left: 4rem;
-  padding: 0 1rem; 
+  padding: 0 1rem;
 }
-  
-.modes-details ul li {
-    position: relative;
-    margin: 1rem;
-    padding: 0 1rem;
-    padding-left: .1rem;
-    font-size: 1rem;
-    text-align: justify; 
-  }
 
-@media screen and (max-width: 768px){
+.modes-details ul li {
+  position: relative;
+  margin: 1rem;
+  padding: 0 1rem;
+  padding-left: 0.1rem;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 768px) {
   .section {
     width: 100%;
-    margin: 1rem auto;    
+    margin: 1rem auto;
   }
-  .section .description{
+  .section .description {
     margin: auto;
     padding: 1rem;
-    font-size: .8rem;
-
+    font-size: 0.8rem;
   }
-  .modes-details ul li{
-    font-size: .8rem;
+  .modes-details ul li {
+    font-size: 0.8rem;
     margin-left: -2rem;
   }
-  .modes-picture{
+  .modes-picture {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
 
-  .modes-picture img:first-child{
+  .modes-picture img:first-child {
     grid-column: 1/2;
     grid-row: 1/2;
   }
-  .modes-picture img:first-child{
+  .modes-picture img:first-child {
     grid-column: 1/2;
     grid-row: 1/2;
   }
 }
-
