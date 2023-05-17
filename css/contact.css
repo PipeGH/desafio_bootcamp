@@ -1,5 +1,4 @@
 #contact-section {
-  flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -36,18 +35,16 @@
   margin-bottom: 1rem;
   text-align: center;
 }
-
 #field-form {
   border: none;
   padding: 0;
   margin: 0;
 }
-
-#description-form {
+#field-form #description-form {
   margin-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  text-align: left;
 }
-
 #nombre,
 #email {
   display: block;
@@ -91,10 +88,18 @@
     width: 55vw;
     height: auto;
   }
+  #field-form #description-form {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
 }
 @media screen and (max-width: 480px) {
   #subscription-form {
     width: 80vw;
     height: auto;
+  }
+  #field-form #description-form {
+    margin-bottom: 1rem;
+    font-size: 1rem;
   }
 }

@@ -361,7 +361,7 @@
       <h2>Equipos mas poderosos del competitivo</h2>
       <!--Equipo numero 1-->
       <article class="equipo-content">
-        <h3>Nova Esport</h3>
+        <h2>Nova Esport</h2>
         <p>
           Es un equipo chino de élite de Peacekeeper. Este equipo gano 2 veces consecutivas la PUBG
           MOBILE GLOBAL CHAMPIONSHIP (PMGC), la cual es el torneo más importante y del que todo jugador quiere del mundo
@@ -393,7 +393,7 @@
       </article>
       <!--Equipo numero 2-->
       <article class="equipo-content">
-        <h3 class="team-name">Stalwart Esports</h3>
+        <h2>Stalwart Esports</h2>
         <p>
           Stalwart Esports es una organización india, que actualmente compite en PUBG Mobile en la región de
           Mongolia. En edición mas reciente del mundial o PMGC que se llevo acabo en el 2022 logro quedar en la
@@ -426,7 +426,7 @@
       </article>
       <!--Equipo numero 3-->
       <article class="equipo-content">
-        <h3 class="team-name">Alpha 7</h3>
+        <h2>Alpha 7</h2>
         <p>
           Alpha 7 Esports es una organización brasileña, que actualmente compite en PUBG Mobile en la región de
           brasil. En edición mas reciente del mundial (PMGC) que se llevo acabo en el 2022 logro quedar en la posicion
@@ -459,7 +459,7 @@
       </article>
       <!--Equipo numero 4-->
       <article class="equipo-content">
-        <h3 class="team-name">Team Queso</h3>
+        <h2>Team Queso</h2>
         <p>
           Team Queso es una organización profesional española de esports, que actualmente opera en la región de
           latinoamerica, mas especificamente en Argentina. su roster oficial cuenta con un Colombiano (Reyes), y
@@ -495,40 +495,44 @@
         </section>
       </article>
     </section>
+    <!--Seccion 5: Contacto-->
+    <section id="contact-section">
+      <h2 id="title">Suscripción</h2>
+      <form action="procesar_suscripcion.php" method="POST" id="subscription-form">
+        <fieldset id="field-form">
+          <legend id="text-form">Suscribete al Blog</legend>
+          <p id="description-form">Recibe las últimas actualizaciones directamente en tu bandeja de entrada.</p>
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" required>
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" required>
+        </fieldset>
+        <input type="submit" value="Suscribirse">
+      </form>
+    </section>
   </main>
+  <!--Footer-->
+  <footer id="footer">
+    <section id="info-section">
+      <h2>Acerca de este Blog</h2>
+      <p id="description">Nuestro objetivo principal es mantenerte informado sobre todas las novedades del juego. Desde
+        actualizaciones de
+        mapas y nuevas armas hasta que equipos son los mas conocidos y fuertes en el competitivo, te mantendremos al
+        tanto
+        de todo lo que sucede en el mundo de PUBG Mobile.</p>
+      <p id="copy-r">&copy; 2023 Blog de PUBG Mobile. Todos los derechos reservados.</p>
+    </section>
 
-  <section id="contact-section">
-    <h2 id="title">Suscripción</h2>
-    <form action="procesar_suscripcion.php" method="POST" id="subscription-form">
-      <fieldset id="field-form">
-        <legend id="text-form">Suscribete al Blog</legend>
-        <p id="description-form">Recibe las últimas actualizaciones directamente en tu bandeja de entrada.</p>
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" required>
-        <label for="email">Correo electrónico:</label>
-        <input type="email" id="email" name="email" required>
-      </fieldset>
-      <input type="submit" value="Suscribirse">
-    </form>
-  </section>
+    <section id="social-icons">
+      <h2>Sigue nuestras redes sociales</h2>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-discord"></i></a>
+    </section>
+  </footer>
+
 </body>
-<footer id="footer">
-
-  <section id="informacion">
-    <h2>Acerca de este Blog</h2>
-    <p id="description">Nuestro objetivo principal es mantenerte informado sobre todas las novedades del juego. Desde
-      actualizaciones de
-      mapas y nuevas armas hasta que equipos son los mas conocidos y fuertes en el competitivo, te mantendremos al tanto
-      de todo lo que sucede en el mundo de PUBG Mobile.</p>
-    <p id="copy-r">&copy; 2023 Blog de PUBG Mobile. Todos los derechos reservados.</p>
-  </section>
-
-  <section id="social-icons">
-    <h2>Sigue nuestras redes sociales</h2>
-    <a href="#"><i class="fab fa-facebook"></i></a>
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-  </section>
-</footer>
 
 </html>
